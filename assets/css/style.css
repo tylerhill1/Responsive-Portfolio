@@ -2,18 +2,26 @@
 body {
     background-image: url("circles-light.png");
 }
-.header {
-    width: 960px;
-}
+
 h1 {
     display: inline-block;
 }
+
+.header {
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+  padding-left: 100px;
+}
+
 ul {
+    width: 960px;
+    text-align: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
   }
   
   li {
@@ -22,12 +30,33 @@ ul {
   
   li a {
     display: inline-block;
-    color: white;
+    color: gray;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: #ffffff;
+  }
+
+  #profpic {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    max-width: 20%;
+  }
+
+  p {
+    line-height: 2;
+  }
+
+  .main {
+    margin-left: 100px;
+    margin-top: 20px;
+    align-items: center;
+    padding: 20px;
+    width: 920px;
+    background-color: white;
+    overflow: hidden;
   }
