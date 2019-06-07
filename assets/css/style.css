@@ -129,20 +129,8 @@ ul {
     position: relative;
   }
 
-
-
-  /* #firstpic {
-    position: relative;
-  } */
-
-  /* .parent {
-    position: relative;
-    margin: 2em;
-  } */
   #overlay1 {
     position: absolute;
-    /* top: 800px;  
-     margin-left: 16px; */
     text-align: center;
     font-size: x-large;
     padding-top: 10px;
@@ -157,8 +145,6 @@ ul {
 
   #overlay2 {
     position: absolute;
-    /* top: 800px;  
-     margin-left: 16px; */
     text-align: center;
     font-size: x-large;
     padding-top: 10px;
@@ -173,8 +159,6 @@ ul {
 
   #overlay3 {
     position: absolute;
-    /* top: 800px;  
-     margin-left: 16px; */
     text-align: center;
     font-size: x-large;
     padding-top: 10px;
@@ -189,8 +173,6 @@ ul {
 
   #overlay4 {
     position: absolute;
-    /* top: 800px;  
-     margin-left: 16px; */
     text-align: center;
     font-size: x-large;
     padding-top: 10px;
@@ -205,8 +187,6 @@ ul {
 
   #overlay5 {
     position: absolute;
-    /* top: 800px;  
-     margin-left: 16px; */
     text-align: center;
     font-size: x-large;
     padding-top: 10px;
@@ -219,9 +199,26 @@ ul {
     overflow: hidden;
   }
 
-/* 
-  .top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-  } */
+  input {
+    width: 100%;
+    height: 20px;
+  }
+
+  form {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 1.4;
+  }
+
+  button {
+    color: white;
+    background-color: #4aaaa5;
+    height: 30px;
+    width: 70px;
+    font-size: small;
+    margin-top: 10px;
+  }
+
+  button:hover {
+    
+  }
