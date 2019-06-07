@@ -18,6 +18,7 @@ h1 {
   background-color: white;
   overflow: hidden;
   border-bottom: 2px solid #cccccc;
+  z-index: 1;
 }
 
 ul {
@@ -42,10 +43,11 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    background-color: #ffffff;
   }
   
   li a:hover {
-    background-color: #ffffff;
+    background-color: #4aaaa5;
   }
 
   #profpic {
@@ -115,3 +117,111 @@ ul {
     right: 0;
     left: 0;
   }
+
+  .pic {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    margin: 1em;
+  }
+
+  .picture-group {
+    position: relative;
+  }
+
+
+
+  /* #firstpic {
+    position: relative;
+  } */
+
+  /* .parent {
+    position: relative;
+    margin: 2em;
+  } */
+  #overlay1 {
+    position: absolute;
+    /* top: 800px;  
+     margin-left: 16px; */
+    text-align: center;
+    font-size: x-large;
+    padding-top: 10px;
+    top: 350px;
+    left: 146px;
+    width: 250px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    overflow: hidden;
+  }
+
+  #overlay2 {
+    position: absolute;
+    /* top: 800px;  
+     margin-left: 16px; */
+    text-align: center;
+    font-size: x-large;
+    padding-top: 10px;
+    top: 580px;
+    left: 146px;
+    width: 250px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    overflow: hidden;
+  }
+
+  #overlay3 {
+    position: absolute;
+    /* top: 800px;  
+     margin-left: 16px; */
+    text-align: center;
+    font-size: x-large;
+    padding-top: 10px;
+    top: 820px;
+    left: 146px;
+    width: 250px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    overflow: hidden;
+  }
+
+  #overlay4 {
+    position: absolute;
+    /* top: 800px;  
+     margin-left: 16px; */
+    text-align: center;
+    font-size: x-large;
+    padding-top: 10px;
+    top: 350px;
+    left: 482px;
+    width: 250px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    overflow: hidden;
+  }
+
+  #overlay5 {
+    position: absolute;
+    /* top: 800px;  
+     margin-left: 16px; */
+    text-align: center;
+    font-size: x-large;
+    padding-top: 10px;
+    top: 580px;
+    left: 482px;
+    width: 250px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    overflow: hidden;
+  }
+
+/* 
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  } */
